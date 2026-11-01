@@ -1,0 +1,15 @@
+{
+  "name": "grok-bot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "cloud": "node cloud/server.js",
+    "mac": "node mac/app.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "ws": "8.22.1"
+  }
+}
